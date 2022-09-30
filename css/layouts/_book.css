@@ -1,0 +1,10 @@
+.book{
+    margin: 15rem 0;
+    padding: 15rem 0 0;
+    background-image: linear-gradient(to right, rgba(0,0,0,0.7), rgba(0,0,0,0.7)),url(../../images/hero_1.jpeg);
+    background-size: cover;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    background-attachment: fixed;
+}

@@ -1,0 +1,68 @@
+@media only screen and (max-width: 75em) {
+
+    html {
+        font-size: 50%;
+    }
+
+    .food-cards {
+        grid-template-columns: repeat(auto-fit, minmax(20rem, 25rem));
+    }
+
+
+}
+
+@media only screen and (max-width: 62em) {
+    .history {
+        grid-template-columns: repeat(auto-fit, minmax(40rem, 80rem));
+        grid-template-rows: repeat(auto-fit, minmax(20rem, 45rem));
+        justify-content: center;
+    }
+
+    .food-card:nth-child(odd) {
+        padding-top: 0;
+    }
+
+    .suggestion {
+        transform: translateY(0);
+        justify-content: center;
+        margin-bottom: 8rem;
+        grid-template-columns: repeat(auto-fit, minmax(40rem, 80rem));
+
+    }
+}
+
+@media only screen and (max-width: 48em) {
+    header {
+        height: 90vh;
+    }
+
+    .header-navbar-list {
+        column-gap: 2rem;
+    }
+
+    .food-cards {
+        grid-template-columns: repeat(auto-fit, minmax(30rem, 33rem));
+    }
+
+    .suggestion-right{
+        justify-content: center ;
+        padding: 4rem;
+        text-align: center;
+    }
+
+    .suggestion-right button{
+        justify-self: center;
+    }
+}
+
+@media only screen and (max-width: 36em) {
+    .history {
+        padding: 5rem 0;
+        gap: 4rem;
+    }
+
+    .description {
+        margin-bottom: 15rem;
+        grid-template-columns: minmax(20rem, 80rem);
+    }
+}

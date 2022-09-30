@@ -1,0 +1,15 @@
+.description{
+    margin-bottom: 15rem;
+    display: grid;
+    grid-template-columns: minmax(40rem, 60rem);
+    justify-content: start;
+    align-items: center;
+    line-height: 2.5rem;
+    color: var(--bs-white);
+    gap: 3rem;
+}
+
+.description-titel{
+    font-size: 4rem;
+}
+

@@ -1,0 +1,31 @@
+.u-container-fluid {
+    margin: 0 auto;
+    width: 100%;
+}
+
+.u-container {
+    margin: 0 auto;
+    width: 85%;
+}
+
+
+.u-text-red {
+    color: var(--bs-red);
+}
+
+.paragraph {
+    font-family: var(--font-secondry);
+    font-size: 1.4rem;
+    color: var(--bs-half-white);
+    line-height: 2.5rem;
+}
+
+.u-text-center {
+    text-align: center;
+    justify-content: center !important;
+}
+
+
+.u-justify-self-center{
+    justify-self: center;
+}

@@ -1,0 +1,9 @@
+::selection{
+    color: var(--bs-white);
+    background-color: var(--bs-red);
+}
+
+body{
+    background-image: url(../../images/broken_noise.png);
+    
+}
