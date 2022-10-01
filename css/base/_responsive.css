@@ -58,7 +58,7 @@
 @media only screen and (max-width: 36em) {
     .history {
         padding: 5rem 0;
-        gap: 4rem;
+        gap: 10rem;
     }
 
     .description {
